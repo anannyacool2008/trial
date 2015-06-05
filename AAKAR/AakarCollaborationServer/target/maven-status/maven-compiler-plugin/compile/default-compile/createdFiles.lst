@@ -1,0 +1,7 @@
+com\aakar\collaboration\server\rolemanagement\RoleMangerTest.class
+com\aakar\collaboration\server\usermanagement\usertest.class
+com\aakar\collaboration\server\usermanagement\UserDt.class
+com\aakar\collaboration\server\partitionmanagement\DBPartitionmanagerImpl.class
+com\aakar\collaboration\server\partitionmanagement\PartitionManagerTest.class
+com\aakar\collaboration\server\usermanagement\DBUsermanagerImpl.class
+com\aakar\collaboration\server\rolemanagement\DBRolemanagerImpl.class
