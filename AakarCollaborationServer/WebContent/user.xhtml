@@ -1,0 +1,25 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<body>
+	Please, enter User information information:
+	<br />
+	<br />
+	<h:form>
+      User Id: <h:inputText value="#{userTest.uid1}" required="true" />
+		<br />
+      User Name: <h:inputText value="#{userTest.name1}" required="true" />
+		<br />
+		<h:commandButton value="Add new user "
+			action="#{userTest.createUser()}" />
+			
+		<br />
+		<h:commandButton value="Remove "
+			action="#{userTest.removeUser()}" />
+			
+		<br />
+
+	</h:form>
+</body>
+</html>

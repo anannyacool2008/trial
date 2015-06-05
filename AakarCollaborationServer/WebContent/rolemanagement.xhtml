@@ -1,0 +1,13 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+  <body>
+    Please, enter Partition information information:<br/><br/>
+    <h:form>
+      Partition Id: <h:inputText value="#{roleMangerTest.roleId}" required="true"/><br/>
+      Partition Name: <h:inputText value="#{roleMangerTest.roleName}" required="true"/><br/>
+      <h:commandButton value="Add new role " action="#{roleMangerTest.createRole}"/><br/>
+       <h:commandButton value="remove role " action="#{roleMangerTest.removeRole}"/><br/>
+    <h:commandButton value="Add roles " action="#{roleMangerTest.createRoles}"/><br/>
+     <h:commandButton value="remove roles  " action="#{roleMangerTest.removeRoles}"/>
+    </h:form>
+  </body>
+</html>
