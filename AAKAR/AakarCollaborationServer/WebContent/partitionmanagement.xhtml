@@ -1,0 +1,13 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+  <body>
+    Please, enter Partition information information:<br/><br/>
+    <h:form>
+      Partition Id: <h:inputText value="#{partitionManagerTest.partitionId}" required="true"/><br/>
+      Partition Name: <h:inputText value="#{partitionManagerTest.partitionName}" required="true"/><br/>
+      <h:commandButton value="Add new partition " action="#{partitionManagerTest.createPartition}"/><br/>
+       <h:commandButton value="remove partition " action="#{partitionManagerTest.removePartition}"/><br/>
+    <h:commandButton value="Add partitions " action="#{partitionManagerTest.createPartitions}"/><br/>
+     <h:commandButton value="remove partitions  " action="#{partitionManagerTest.removePartitions}"/>
+    </h:form>
+  </body>
+</html>
